@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YDS-LI-YF1">
+                                <rect key="frame" x="296" y="134" width="74" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="Y1c-BL-kNL"/>
+                                    <constraint firstAttribute="height" constant="107" id="yx1-3W-bGU"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ceM-SB-wRF">
+                                <rect key="frame" x="148" y="268" width="370" height="107"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZzD-UE-ws6" customClass="CardView">
+                                        <rect key="frame" x="0.0" y="0.0" width="74" height="107"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="107" id="0FO-FI-poq"/>
+                                            <constraint firstAttribute="width" constant="74" id="YiS-1X-c0p"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zx0-C7-7F7" customClass="CardView">
+                                        <rect key="frame" x="74" y="0.0" width="74" height="107"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="107" id="0bz-TM-fyr"/>
+                                            <constraint firstAttribute="width" constant="74" id="1D1-JA-fZd"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gnk-fE-ADv" customClass="CardView">
+                                        <rect key="frame" x="148" y="0.0" width="74" height="107"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="74" id="WwS-To-DvS"/>
+                                            <constraint firstAttribute="height" constant="107" id="oLd-De-uVk"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R4M-qs-Gyo" customClass="CardView">
+                                        <rect key="frame" x="222" y="0.0" width="74" height="107"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="74" id="9a6-Hf-iZC"/>
+                                            <constraint firstAttribute="height" constant="107" id="lFg-SA-LW9"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QWk-WF-DZE" customClass="CardView">
+                                        <rect key="frame" x="296" y="0.0" width="74" height="107"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="107" id="BYf-n5-KDB"/>
+                                            <constraint firstAttribute="width" constant="74" id="qYM-cF-0cs"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SNR-Cy-CxH">
+                                <rect key="frame" x="597" y="152.5" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="cfY-qi-bih"/>
+                                    <constraint firstAttribute="width" constant="70" id="pdG-BM-hx1"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lUo-ml-s74">
+                                <rect key="frame" x="298" y="0.0" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="asx-vD-9gI"/>
+                                    <constraint firstAttribute="height" constant="70" id="baV-Qj-Xg7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a3g-gc-aTw">
+                                <rect key="frame" x="0.0" y="152.5" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Pn9-EV-vS8"/>
+                                    <constraint firstAttribute="width" constant="70" id="yO9-EA-yfZ"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4Jj-Ox-q40">
+                                <rect key="frame" x="584" y="253" width="43" height="72"/>
+                                <subviews>
+                                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cn8-4d-6M1" customClass="SelectCardBtn">
+                                        <rect key="frame" x="0.0" y="0.0" width="43" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="btnA"/>
+                                    </button>
+                                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kr-MU-eFm" customClass="SelectCardBtn">
+                                        <rect key="frame" x="0.0" y="36" width="43" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="btnB"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nha-qc-Gy1">
+                                <rect key="frame" x="10" y="331" width="49" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nha-qc-Gy1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="050-Wd-EsS"/>
+                            <constraint firstItem="lUo-ml-s74" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="41I-GY-J2T"/>
+                            <constraint firstItem="YDS-LI-YF1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7nu-bp-gj0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4Jj-Ox-q40" secondAttribute="bottom" constant="50" id="9O7-Ew-53S"/>
+                            <constraint firstItem="SNR-Cy-CxH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Bdp-IC-HKL"/>
+                            <constraint firstItem="YDS-LI-YF1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FfB-A7-1CP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ceM-SB-wRF" secondAttribute="bottom" id="Q5e-pe-gR9"/>
+                            <constraint firstItem="ceM-SB-wRF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RdK-9k-hE4"/>
+                            <constraint firstItem="a3g-gc-aTw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UWv-iq-hQN"/>
+                            <constraint firstAttribute="trailing" secondItem="SNR-Cy-CxH" secondAttribute="trailing" id="VQT-P3-NfF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nha-qc-Gy1" secondAttribute="bottom" constant="20" id="VTG-rC-B48"/>
+                            <constraint firstItem="a3g-gc-aTw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jEx-h8-1AV"/>
+                            <constraint firstItem="lUo-ml-s74" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="oZ9-IV-rfa"/>
+                            <constraint firstAttribute="trailing" secondItem="4Jj-Ox-q40" secondAttribute="trailing" constant="40" id="oul-DN-VgC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="centerCard" destination="YDS-LI-YF1" id="Yfe-28-ay9"/>
+                        <outlet property="nowStateLabel" destination="nha-qc-Gy1" id="4GK-Wf-Kqk"/>
+                        <outletCollection property="myCards" destination="ZzD-UE-ws6" id="9PH-m5-GZD"/>
+                        <outletCollection property="myCards" destination="Zx0-C7-7F7" id="sUp-AD-i6D"/>
+                        <outletCollection property="myCards" destination="gnk-fE-ADv" id="Mke-nL-vOj"/>
+                        <outletCollection property="myCards" destination="R4M-qs-Gyo" id="ROg-7a-BcC"/>
+                        <outletCollection property="myCards" destination="QWk-WF-DZE" id="ULh-0G-sUe"/>
+                        <outletCollection property="selectCardBtns" destination="cn8-4d-6M1" id="lAI-de-BC6"/>
+                        <outletCollection property="selectCardBtns" destination="5kr-MU-eFm" id="ZZI-66-V8K"/>
+                        <outletCollection property="userIcons" destination="a3g-gc-aTw" id="OfM-W0-oGM"/>
+                        <outletCollection property="userIcons" destination="lUo-ml-s74" id="hcW-Ha-diP"/>
+                        <outletCollection property="userIcons" destination="SNR-Cy-CxH" id="s1A-8d-t8a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="12"/>
+        </scene>
+    </scenes>
+</document>
